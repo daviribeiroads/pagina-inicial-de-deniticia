@@ -1,0 +1,99 @@
+@charset "UTF-8";
+
+body {
+    margin: 16px;
+}
+
+p {
+    line-height: 24px;
+    font-size: 0.9em;
+    color: #858585;
+    margin-top: 8px;
+}
+
+/* header */
+
+#h1 > h1 {
+    font-size: 40px; 
+    margin-top: 30px;
+}
+#logo-w {
+    max-width: 45px;
+}
+
+#logo-desktop, a {
+    display: none;
+}
+
+#logo-menu {
+   float: right;
+}
+
+/* main /*
+/* section one */
+
+#logo-mobile {
+    max-width: 330px;
+}
+
+.container-one h1, p {
+    max-width: 328px;
+}
+
+button {
+    padding: 14px; 
+    width: 174px; 
+    border: none; 
+    background-color: #d44a3b; 
+    color: white; 
+    word-spacing: 6px; 
+    letter-spacing: 3px; 
+    margin-top: 24px; 
+    margin-bottom: 60px;
+}
+
+button:hover {
+    background-color: #d17f76;
+    cursor: pointer;
+}
+
+/* section two */
+
+.container-two div {
+    background-color: #02031c;
+    padding: 10px;
+}
+
+.container-two h4 {
+    margin-top: 10px;
+    color: white;
+    font-size: 18px;
+}
+
+/* section three */
+
+.container-three {
+    margin-top: 60px;
+}
+
+.container-three img {
+    max-width: 100px;
+}
+
+.one {
+    display: flex;
+    margin-top: 25px;
+}
+
+.one h1 {
+    font-size: 30px;
+    color: #717070;
+}
+
+.one h3 {
+    margin-top: 10px;
+}
+
+.one h1, h3, p {
+    margin-left: 20px;
+}
