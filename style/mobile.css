@@ -33,7 +33,7 @@ p {
 /* section one */
 
 #logo-mobile {
-    max-width: 330px;
+    max-width: 335px;
 }
 
 .container-one h1, p {
@@ -59,15 +59,18 @@ button:hover {
 
 /* section two */
 
-.container-two div {
+.container-div {
     background-color: #02031c;
-    padding: 10px;
+    padding: 12px;
+    width: 310px;
+    height: 400px;
 }
 
 .container-two h4 {
     margin-top: 10px;
     color: white;
     font-size: 18px;
+    margin-left: 10px;
 }
 
 /* section three */
