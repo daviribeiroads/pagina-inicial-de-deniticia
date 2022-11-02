@@ -26,6 +26,11 @@ p {
 
 /* section one */
 
+#h1 > h1 {
+    font-size: 45px; 
+    margin-top: 30px;
+}
+
 a:hover {
     color: #d17f76;
     cursor: pointer;
